@@ -2301,6 +2301,7 @@ float:left
 display:block;
 width:75%;
 max-width:1195px;
+min-width:975px;
 margin-right:auto;
 margin-left:auto
 }
