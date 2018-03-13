@@ -1,6 +1,7 @@
 @media max-width 479px {
 .nav {
-padding-bottom:15px
+padding-bottom:15px;
+/*background-image:url("../images/covers/track12.jpg");*/
 }
 
 .container.nav-container {
