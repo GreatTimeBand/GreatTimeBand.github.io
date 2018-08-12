@@ -377,6 +377,16 @@ line-height:100%;
 margin:0
 }
 
+body.press {
+min-height:100%;
+background-color:#eeeeee;
+font-family:Montserrat, sans-serif;
+color:#000;
+font-size:100%;
+line-height:100%;
+margin:0
+}
+
 audio,canvas,progress,video {
 display:inline-block;
 vertical-align:baseline
@@ -2019,7 +2029,7 @@ margin-right:10px
 
 .body {
 padding-top:50px;
-background-color:#fff
+background-color:#ffffff;
 }
 
 .paragraph {
@@ -2055,7 +2065,7 @@ text-align:right
 display:block;
 font-family:'Open Sans', sans-serif;
 font-size:80%;
-text-align:right
+text-align:right;
 }
 
 .paragraph-3 {
