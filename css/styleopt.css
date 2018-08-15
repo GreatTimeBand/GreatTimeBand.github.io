@@ -2406,6 +2406,10 @@ text-decoration:none
 text-decoration:none
 }
 
+.photo {
+text-decoration:none;
+}
+
 .audioplayerdiv {
 position:fixed;
 left:0;
