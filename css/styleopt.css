@@ -2321,7 +2321,7 @@ margin-left:auto
 .social-media-div-block {
 display:block;
 width:40%;
-max-width:120px;
+max-width:180px;
 margin-top:10px;
 margin-bottom:auto;
 float:right
@@ -2409,6 +2409,7 @@ text-decoration:none
 .photo {
 text-decoration:none;
 }
+
 
 .audioplayerdiv {
 position:fixed;
