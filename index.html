@@ -39,6 +39,41 @@ WebFont.load({  google: {    families: ["Montserrat:100,100italic,200,200italic,
   <link href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png" rel="apple-touch-icon">
   <style>
 button:focus {outline:0;}
+
+.tooltip {
+    position: relative;
+    display: inline;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+	height: 37px;
+    background-color: black;
+    color: #fff;
+	font-size: .8em;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 110%;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
   </style>
 </head>
 
@@ -120,7 +155,11 @@ button:focus {outline:0;}
       <a class="show-all-button w-button" data-ix="show-and-hide-all">▼ Show All</a>
 
       <div class="div-block">
-        <h2 class="heading-2 music"><div class="tooltip"><!--<a class="kickstarter" title="Listen on the Net" href="http://hyperurl.co/GreatAlbum" target="_blank">-->Music</div> <!--<a class=dlLink href="https://drive.google.com/open?id=1kgrURqHNDuI5-7vtmn-bApibs0SAMSLq" target="_blank">[mp3 Download]</a>--></h2>
+        <h2 class="heading-2 music">
+		<div class="tooltip">
+		<a class="kickstarter" href="http://hyperurl.co/GreatAlbum" target="_blank">Music
+			<span class="tooltiptext">Listen On the Net</span>
+		</div> <!--<a class=dlLink href="https://drive.google.com/open?id=1kgrURqHNDuI5-7vtmn-bApibs0SAMSLq" target="_blank">[mp3 Download]</a>--></h2>
       </div>
 
       <div class="w-row">
@@ -334,16 +373,13 @@ button:focus {outline:0;}
       <h2 class="heading-2 bio">Bio</h2>
 
       <div class="w-row">
-        <div class="w-col w-col-6">
-          <p class="paragraph">GREAT TIME is excited to present their long anticipated release <a href="http://hyperurl.co/GreatAlbum" target="_blank" class="kickstarter">GREAT ALBUM</a>. 
-		  One listen front to back will have you forgetting whether you’re couch surfing or crowd surfing. 
+        <div class="w-col w-col-6"> 
+          <p class="paragraph">GREAT TIME released their debut record <a href="http://hyperurl.co/GreatAlbum" target="_blank" class="kickstarter"><i>GREAT ALBUM</i></a> in April 2018.  The trio, along with a host of featured artists, combine their eclectic musical influences with a discerning approach and a small serving of goof; one listen front to back will have you forgetting whether you’re couch surfing or crowd surfing. 
 		  At their live shows, GREAT TIME's range inspires a kaleidoscope of emotions (not to mention dance moves). 
 		  Their music attracts all types of ears, and is influenced by artists that go as hard as Nirvana, as gentle as Sufjan Stevens, and as dancy as Little Dragon. 
 		  After a successful <a href="https://www.kickstarter.com/projects/greattime/great-time-builds-a-recording-studio" target="_blank" class="kickstarter">Kickstarter</a> campaign, GREAT TIME built a recording studio on a farm outside Philly, where they live and produce themselves and other bands. 
-		  They just completed their East and West Coast Summer Tour and will be focusing on consistently releasing new music.
+		  Their most recent single <i>Thank The Weekend</i> released October 12 and is available on all digital platforms.
 		  </br></br>
-		  Official Release Date: April 20th, 2018
-		  
 		</p>
         </div>
 
